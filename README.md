@@ -1,3 +1,3 @@
-# CLOiSim : Multi-Robot Simulator
-It is a new multi-robot simulator that uses an SDF(www.sdformat.org) file containing 3d world environemnts and robot descriptions. The simulator is based on Unity 3D. It may look similar to Gazebo, where, unfortunately, we encountered performance problems while loading multiple robots equipped with multiple sensors.
-  - Github: https://github.com/lge-ros2/multi-robot-simulator
+# lge-ros2
+'lge-ros2' is a set of open-source ROS2 package repositories that can be used by ROS2-based robots. These packages may be deployed either directly or remotely. If a robot has enough computation resources, the package may be directly executed in the device. If not, it may be executed in an edge server or a cloud and deployed remotely through wireless communication. The examples of the packages include Simultaneous Localization and Mapping (SLAM), mobile robot navigation, deep-learning based object detection, voice recognition, multi-robot fleet management, and etc. This project is for anyone who wants to build a cloud robotics solution using ROS2-based LGE robots.
+  - Github: https://github.com/lge-ros2
